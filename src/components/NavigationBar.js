@@ -10,7 +10,7 @@ class Navbar extends Component {
       <div>
         <nav className="NavBar">
           <a href={"/"}>
-            <img className="logo" src={logo} />
+            <img className="logo" src={logo} alt="" />
           </a>
 
           <div className="NavBar-Expanded">
