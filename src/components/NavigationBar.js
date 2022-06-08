@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "../../styles/NavigationBar.css";
-import logo from "../../assets/sbt300.png";
+import "../styles/NavigationBar.css";
+import logo from "../assets/sbt300.png";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -20,7 +20,7 @@ class Navbar extends Component {
               </a>
               <a
                 className="NavBarItem"
-                href={"https://github.com/ishouldprobablymakearepo"}
+                href={"https://github.com/cdubowdeveloper/SBT2.0-Demo-React"}
               >
                 Source Code
               </a>

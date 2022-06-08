@@ -1,7 +1,7 @@
 import "./App.css";
 import Chatbox from "./components/Chatbox";
 import Inbox from "./components/Inbox";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import * as module from "https://t2c-stage.solutionsbytext.com/js/interactions/module.js";

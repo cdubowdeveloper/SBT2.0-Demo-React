@@ -25,15 +25,29 @@ function Home() {
               View the source code for this sample project on Github to use in
               your own application.
             </p>
-            <button onClick={() => navigate("/inbox")}>Source Code</button>
-          </div>{" "}
+            <button
+              onClick={() =>
+                navigate("https://github.com/cdubowdeveloper/SBT2.0-Demo-React")
+              }
+            >
+              Source Code
+            </button>
+          </div>
           <div className="container-column">
             <img className="icon" src={storybooksImg} />
             <p>
               View sample stories and their code in Storybooks to help you build
               UI components.
             </p>
-            <button onClick={() => navigate("/inbox")}>Storybooks</button>
+            <button
+              onClick={() =>
+                navigate(
+                  "https://developers.solutionsbytext.com/docs/t2c2.0mfe/storybook-static/index.html?path=/story/t2c-2-0-introduction--page"
+                )
+              }
+            >
+              Storybooks
+            </button>
           </div>
         </div>
       </div>
