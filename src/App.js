@@ -1,5 +1,4 @@
 import "./App.css";
-import Chatbox from "./components/Chatbox";
 import Inbox from "./components/Inbox";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
