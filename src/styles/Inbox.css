@@ -1,0 +1,27 @@
+.inbox-container {
+  width: 100%;
+}
+
+.inbox-row {
+  border-spacing: 0px;
+}
+
+.box {
+}
+
+.dc-cell {
+  width: 50%;
+  float: right;
+}
+
+.inbox-cell {
+  padding-left: 0.25vw;
+  padding-right: 0.25vw;
+  width: 50%;
+  float: left;
+}
+
+.StyledGrommet-sc-19lkkz7-0 {
+  max-width: 45vw;
+  max-height: 87vh;
+}

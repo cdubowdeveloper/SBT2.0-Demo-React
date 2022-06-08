@@ -1,0 +1,65 @@
+.NavBar {
+  background: linear-gradient(
+    90deg,
+    rgb(204, 200, 245) 50%,
+    rgb(116, 112, 184) 100%
+  );
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  white-space: nowrap;
+}
+
+.logo {
+  margin: 0px;
+  margin-right: 50px;
+  float: left;
+  width: 120px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.NavBarLink {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  font-size: 2.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+
+  padding-left: 0.5rem;
+}
+
+.NavBar-Expanded {
+  padding-right: 0.5rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  display: flex;
+}
+
+.NavBar-Nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.NavBarItem {
+  color: #6c6d70;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0.4rem 2rem 0rem 2rem;
+  text-decoration: wavy;
+  display: block;
+}

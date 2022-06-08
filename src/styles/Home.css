@@ -1,0 +1,42 @@
+button {
+  margin: 20px 5px 0px 5px;
+  padding: 5px 0px 5px 0px;
+  background-color: rgb(204, 200, 245);
+  border-radius: 10px;
+  border: none;
+  color: #6c6d70;
+  width: 120px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.container-column {
+  float: left;
+  width: 28%;
+  margin-left: 2.66%;
+  margin-right: 2.66%;
+}
+
+.icon {
+  width: 40%;
+  object-fit: contain;
+}
+
+/* Clear floats after the columns */
+.container-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
